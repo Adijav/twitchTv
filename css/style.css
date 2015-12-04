@@ -1,0 +1,51 @@
+body {
+	font-family: 'Courgette', cursive;
+	font-size: 200%; 
+}
+
+.tab-content ul {
+	padding: 0;
+}
+.tab-content ul li {
+	list-style-type: none;
+	padding: 10px;
+}
+
+.userName{
+	width: 50%;
+	display: inline-block;
+}
+
+img {
+	width: 50px;
+	height: 50px;
+   	border-radius:50%;
+}
+.userName {
+	padding-left: 10px;
+}
+
+#alttext-container{
+   	border: none !important;
+}
+.green{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: green;
+	margin-left: 80px;
+}
+.red{
+	margin-left: 80px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: red;
+}
+
+.tab-content li:hover {
+	background-color: #C0C0C0;
+	cursor: pointer;
+}
